@@ -1,0 +1,31 @@
+.home-container{
+    color: rgb(75, 76, 77);
+    margin-top: 80px;
+}
+#special-comment{
+    color: rgb(166, 79, 238);
+}
+.router-img img{
+    width: 95%;
+    margin-top: 20px;
+}
+.router-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.router-reviews{
+    margin-top: 80px;
+}
+.reviews-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-top: 80px;
+}
+@media screen and (max-width:688px) {
+    .router-container{
+        
+        grid-template-columns: repeat(1,1fr);
+    }
+}
