@@ -9,7 +9,7 @@ const Reviews = () => {
             <div className='review'>
                 
                 {
-                    reviews.map(review => <div className='abc'>
+                    reviews.map(review => <div className='each-review'>
                         <img src={review.picture} alt="" />
                         <div className="user">
                             <h5>User Name: <span>{review.name}</span></h5>

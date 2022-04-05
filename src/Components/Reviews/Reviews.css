@@ -7,14 +7,7 @@
     margin-top: 80px;
 
 }
-/* .abc{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin: 0 auto;
-    
-    gap: 20px;
 
-} */
 .review img{
     width: 80px;
     height: 80px;
@@ -25,7 +18,7 @@
 .user span{
     color: rgb(166, 79, 238);
 }
-.abc{
+.each-review{
     display: flex;
     align-items: center;
     justify-content: space-around;
